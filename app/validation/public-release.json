@@ -45,5 +45,19 @@
     "shell_and_trial_tests": 36,
     "packaging_tests": 5
   },
-  "physical_acceptance": "Build 3 standard input/reconnect/startup reported on two Macs; stripped public copy has byte-identical runtime sections, but was not separately installed or physically retested."
+  "physical_acceptance": "Build 3 standard input/reconnect/startup reported on two Macs; stripped public copy has byte-identical runtime sections, but was not separately installed or physically retested.",
+  "publication": {
+    "repository": "https://github.com/metalebedenko/earpods-ai-keys",
+    "visibility": "public",
+    "release": "https://github.com/metalebedenko/earpods-ai-keys/releases/tag/v0.1.0-preview.3",
+    "release_source_commit": "cba4e27fc7252462217bb0bf31ddf03fd577c49a",
+    "prerelease": true,
+    "anonymous_repo_readme_media_release_access_verified": true,
+    "anonymous_asset_download_sha256_matches": true,
+    "github_commit_author_and_committer": "metalebedenko",
+    "github_contributors_at_verification": [
+      "metalebedenko"
+    ],
+    "social_posts_published": false
+  }
 }

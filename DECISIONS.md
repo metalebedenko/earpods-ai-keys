@@ -110,4 +110,4 @@
 - Basis: the author's explicit public-repo instruction and preference to keep AI assistance out of coauthor attribution. This does not authorize false claims of wholly manual development.
 - Materials: prepare distinct Habr, Pikabu, Threads and Reddit texts with a minimal shared image set; no social-platform posting yet. Habr's current rules require a separate human-authored article, so its prepared material is reference only.
 - Distribution: publish a privacy-cleaned ad-hoc preview DMG derived from tested build 3; stripping symbol records preserves all runtime sections, but the public asset has a new signature/hash. No paid signing or notarization.
-- Status: authorized; repository/release verification pending completion.
+- Status: published and verified public on 2026-10-16; preview v0.1.0-preview.3 from cba4e27fc7252462217bb0bf31ddf03fd577c49a. Anonymous download matches the public SHA-256. Social posts remain drafts.

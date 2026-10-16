@@ -21,11 +21,11 @@ Publish Sergo Lebedovich's open-source macOS app and prepare platform-specific m
 - README in English/Russian now leads with the app, DMG, first-launch approval and a real settings screenshot. Two core UI screenshots plus an optional DMG-window image were supplied by the author and checked for visible private data.
 - Habr, Pikabu, Threads and Reddit materials are prepared locally under [publications](docs/publications/README.md). Habr's rules prohibit AI-written/edited articles, so its file is reference material, not a ready-to-post article; the author must write that article himself. Pikabu's generated-content tag and Reddit community eligibility are documented.
 - The author explicitly authorized a public GitHub repo and requested authorship under his own name, without AI coauthor credit. No social-platform posting was requested; those texts remain drafts.
-- GitHub publication is being completed for metalebedenko/earpods-ai-keys; verified URL/commit/release facts will be recorded after completion.
+- Public repository: https://github.com/metalebedenko/earpods-ai-keys. Preview v0.1.0-preview.3 is published from source commit cba4e27fc7252462217bb0bf31ddf03fd577c49a with DMG and SHA256SUMS assets. Anonymous repository/README/media/release access and downloaded DMG hash were verified. GitHub maps author and committer to metalebedenko and reports that account as the sole contributor.
 
 ## Active task
 
-Finish pre-publication scan of the exact staged source and public asset; create the public repository and preview release, verify public access and remote commit. Keep the author's GitHub noreply address in repo-local Git identity. No assistant coauthor trailer.
+Public repository and preview delivery are complete. The exact 94-file initial index and asset passed independent pre-publication privacy checks; remote main initially matched the release source commit. Publication materials are ready for the author's review. Keep the author's GitHub noreply identity and no assistant coauthor trailer.
 
 ## Limits
 
@@ -39,4 +39,4 @@ Finish pre-publication scan of the exact staged source and public asset; create 
 
 ## Next step
 
-After public URL, commit, visibility and asset checks pass, report the live repository/release and the four local publication materials. The author chooses when and where to post; Habr needs his independently authored article. Video is deferred, Telegram excluded. Preserve private recovery and avoid general cache/BTM/TCC resets.
+The author reviews the four platform-specific materials and chooses when to post. Habr needs an independently authored article; Pikabu tagging and Reddit eligibility are recorded in platform-notes. Social publication has not occurred. No additional hardware acceptance is inferred from the asset checks. Video is deferred, Telegram excluded. Preserve private recovery and avoid general cache/BTM/TCC resets.
