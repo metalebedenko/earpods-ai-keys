@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-10",
+  "source_artifact": "app/dist/20261010T121206Z-39939/EarPods AI Keys.app",
+  "target": "unique disposable copy in the native user temporary directory",
+  "parent": "own child already exited before helper launch",
+  "helper_exit": 0,
+  "copy_disappeared": true,
+  "unique_trash_copy_exists": true,
+  "helper_stage_removed": true,
+  "original_bundle_and_executable_unchanged": true,
+  "stderr_empty": true,
+  "permission_grants_performed": false,
+  "real_hid_login_support_mutations_performed": false,
+  "trash_emptied": false
+}

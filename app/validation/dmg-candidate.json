@@ -1,0 +1,59 @@
+{
+  "artifact": "EarPods-AI-Keys-0.1.0-dev-build3-arm64-20261016.dmg",
+  "format": "UDZO",
+  "read_only_mount_verified": true,
+  "bytes": 1378836,
+  "sha256": "ce05180be2689a0148b3a8d772295066dfde2ac780f1045ce526f722864d70d5",
+  "bundle_version": "0.1.0",
+  "bundle_build": "3",
+  "same_source_bundle_manifest_verified": true,
+  "strict_deep_signature_verified": true,
+  "applications_link_verified": true,
+  "background_alias_resolved_after_conversion": true,
+  "source_bundle_unchanged": true,
+  "verification_mount_detached": true,
+  "finder_visual_inspection": {
+    "final_artifact_opened_from_downloads_in_finder": true,
+    "root_window_opened_automatically": true,
+    "window_size": [
+      720,
+      478
+    ],
+    "only_app_and_programs_visible": true,
+    "background_arrow_icons_labels_inspected": true,
+    "no_clipping_observed": true,
+    "app_not_launched_or_dragged_over_working_installation": true,
+    "image_ejected_after_inspection": true
+  },
+  "notarization": "unchanged; no notarization performed",
+  "date": "2026-10-16",
+  "packaging_failure_regressions_passed": 5,
+  "independent_review": "concrete findings closed; see docs/reviews/dmg-packaging-review.md",
+  "notarized": false,
+  "second_mac_drag_install": "installed app reported by author; exact drag gesture not separately described",
+  "second_mac_native_app_author_report": {
+    "date": "2026-10-16",
+    "app_launched": true,
+    "earpods_connected": true,
+    "remote_enabled": true,
+    "dictated_text": true,
+    "minus_deleted_text": true,
+    "plus_inserted_newline": true,
+    "follow_up_connection_startup_report": {
+      "date": "2026-10-16",
+      "disconnect_reconnect_works": true,
+      "reboot_with_earpods_connected_works": true,
+      "reboot_without_earpods_then_late_connection_works": true,
+      "evidence": "author confirmed all requested scenarios; no remote inspection or readiness timing measurement"
+    },
+    "evidence": "author physical report; root agent has no access to the second Mac",
+    "not_separately_reported": [
+      "exact Gatekeeper approval steps and DMG drag gesture",
+      "repeat center press to stop Dictation",
+      "exact readiness timing",
+      "Disable, chords and full uninstall",
+      "legacy-cleanup outcome"
+    ]
+  },
+  "installed_app_or_settings_mutation_performed": false
+}

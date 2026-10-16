@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-10",
+  "build": "2",
+  "artifact": "EarPods-AI-Keys-0.1.0-dev-build2-arm64-20261010.zip",
+  "artifact_sha256": "2f2916e08dec843248c557c90631e821ab12f94f8ec8df5a9d5d58a92562ae5e",
+  "bytes": 790462,
+  "architecture": "arm64",
+  "configuration": "release",
+  "bundle_source_relative": "app/dist/20261010T144657Z-54789/EarPods AI Keys.app",
+  "original_icon_source": "app/Tools/GenerateIcons.swift",
+  "app_icon_resource": "AppIcon.icns",
+  "menu_icon_resources": [
+    "MenuIconTemplate.png",
+    "MenuIconTemplate@2x.png"
+  ],
+  "finder_icon_api_preview_verified": true,
+  "ad_hoc_signature_verified": true,
+  "archive_roundtrip_signature_and_payload_hashes_verified": true,
+  "notarized": false,
+  "installed_build_1_untouched": true,
+  "build_2_native_hardware_launch_tested": false
+}

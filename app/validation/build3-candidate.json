@@ -1,0 +1,111 @@
+{
+  "date": "2026-10-11",
+  "build": "3",
+  "artifact": "EarPods-AI-Keys-0.1.0-dev-build3-arm64-20261011.zip",
+  "artifact_sha256": "f497761a42f9d37c2777be761307304b20216085c4f37beeb5c266590c7dccb7",
+  "bytes": 790847,
+  "bundle_source_relative": "app/dist/20261011T172333Z-71798/EarPods AI Keys.app",
+  "changes": [
+    "original app and menu icon",
+    "explicit first-login registration from notFound with verified result"
+  ],
+  "native_tests_passed": 40,
+  "test_breakdown": {
+    "core": 17,
+    "management": 16,
+    "native_runner": 7
+  },
+  "signed_bundle_and_archive_payload_verified": true,
+  "installed_on_first_mac": true,
+  "standard_disabled_preferences_preserved": true,
+  "actual_login_registration_verified": true,
+  "reboot_login_verified": true,
+  "full_ui_uninstall_verified": true,
+  "notarized": false,
+  "login_registration_evidence": "Author screenshot: System Settings Open at Login lists EarPods AI Keys.app on 2026-10-11",
+  "app_opened_by_author": true,
+  "finder_app_list_icon_verified": true,
+  "spotlight_app_grid_icon": "generic icon still visible in author screenshot; targeted metadata refresh/reimport issued, result pending",
+  "application_metadata_refresh_result": 0,
+  "code_signature_unchanged_by_metadata_refresh": true,
+  "last_updated": "2026-10-16",
+  "reboot_login_evidence": {
+    "date": "2026-10-16",
+    "source": "author report following disconnected-start, late-connection protocol; corroborating read-only inspection",
+    "earpods_disconnected_at_boot": true,
+    "menu_icon_appeared_without_manual_app_launch": true,
+    "late_connection_default_center_start_stop": true,
+    "late_connection_minus_backspace": true,
+    "late_connection_plus_newline": true,
+    "buttons_tested_before_menu_or_retry": "author reports all steps of the prescribed protocol succeeded",
+    "applications_process_started_after_current_boot": true,
+    "saved_mode_enabled_standard_profile": true,
+    "live_mapping_exact_standard_pairs_matches_receipt": true,
+    "exact_time_to_readiness": "not measured",
+    "connected_at_login_scenario": "not separately tested"
+  },
+  "full_ui_uninstall_evidence": {
+    "date": "2026-10-16",
+    "scenario": "connected EarPods, enabled standard profile and registered login; author selected full uninstall from Applications app menu",
+    "author_report": {
+      "app_removed": true,
+      "stock_buttons_restored": true,
+      "no_errors": true
+    },
+    "read_only_after_removal_before_reinstall": {
+      "applications_app_absent": true,
+      "own_support_directory_absent": true,
+      "main_and_helper_processes_absent": true,
+      "hid_mapping_empty": true,
+      "earpods_launch_jobs_absent": true,
+      "native_btm_record": "disabled, allowed, notified; historical row retained by macOS",
+      "helper_temporary_stage_absent": true,
+      "original_personal_held_plist_hash_unchanged": true,
+      "original_personal_runtime_all_11_files_unchanged": true,
+      "prior_personal_disabled_flag_unchanged": true,
+      "trash_destination_directly_verified": false,
+      "trash_inspection_limit": "macOS privacy denied direct directory listing; no additional access requested"
+    },
+    "code_path_evidence": "Settings removal and helper launch require successful login unregistration with notRegistered verification."
+  },
+  "reinstallation": {
+    "date": "2026-10-16",
+    "same_build3_copied_into_absent_applications_target": true,
+    "strict_deep_signature_verified": true,
+    "all_bundle_files_match_verified_source": true,
+    "app_launched": true,
+    "own_support_directory_absent_before_launch": true,
+    "clean_launch_profile_and_login_state": "confirmed by author UI report on 2026-10-16",
+    "clean_first_launch_evidence": {
+      "date": "2026-10-16",
+      "author_report": {
+        "app_opened_from_applications": true,
+        "remote_mode_off": true,
+        "launch_at_login_unchecked": true,
+        "standard_dictation_backspace_enter_assignments": true
+      },
+      "read_only_corroboration": {
+        "applications_app_process_present": true,
+        "hid_mapping_empty": true,
+        "settings_json_absent_before_first_save": true
+      },
+      "persistence_note": "Absent settings.json is expected on a clean first launch before any explicit save; mode/profile defaults were confirmed by author UI report, not a saved JSON value.",
+      "remote_and_login_reactivation": "completed through UI; author confirmed usual controls"
+    },
+    "reactivation_evidence": {
+      "date": "2026-10-16",
+      "author_report": {
+        "remote_enabled_successfully": true,
+        "launch_at_login_enabled_without_error": true,
+        "center_dictation_backspace_enter_all_work": true
+      },
+      "read_only_corroboration": {
+        "settings_json_created": true,
+        "saved_enabled": true,
+        "profile_standard": true,
+        "live_exact_standard_three_pairs_matches_verified_receipt": true
+      },
+      "new_reboot_after_reinstallation": "not performed"
+    }
+  }
+}

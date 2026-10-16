@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-10",
+  "artifact": "EarPods-AI-Keys-0.1.0-dev-arm64-20261010.zip",
+  "artifact_sha256": "9f48115d787a031477d8eb2cd8c6890da17445818cf373e90bc1e06907bb4b2d",
+  "bytes": 323953,
+  "configuration": "release",
+  "architecture": "arm64",
+  "bundle_source_relative": "app/dist/20261010T123445Z-42683/EarPods AI Keys.app",
+  "ad_hoc_signature_verified": true,
+  "archive_roundtrip_signature_and_executable_hashes_verified": true,
+  "notarized": false,
+  "native_test_count": 35,
+  "physical_chord_acceptance": false,
+  "full_login_uninstall_acceptance": false
+}

@@ -1,0 +1,10 @@
+.DS_Store
+__pycache__/
+*.pyc
+*.log
+.venv/
+app/.build/
+app/dist/
+app/.swiftpm/
+# Operational handoff for the author's own second Mac; keep it local.
+docs/second-mac-cleanup-prompt.ru.txt
