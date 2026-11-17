@@ -28,4 +28,4 @@ Mark each as worked, failed, or not tested. A mapping readback alone is not a ph
 
 ## Details
 
-Include relevant command output or error messages. Remove your user name, home path and dictated text if you do not want to share them.
+This is a public issue. Describe what happened and quote only the relevant error line. Remove account names, home paths, device serial numbers, tokens and dictated text before posting. Use a made-up phrase to demonstrate dictation and crop screenshots to the app.
