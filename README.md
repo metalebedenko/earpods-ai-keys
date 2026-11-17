@@ -10,7 +10,11 @@
 | − | Backspace — delete a character or selected text |
 | + | Enter — the focused app's usual action |
 
-Dictate a prompt, fix a word and press Enter without reaching for the keyboard. It works through system input, so no ChatGPT account, API key or AI service integration is needed. Enter may insert a newline, send a message or execute a terminal command, depending on the focused app.
+## Dictation without the keyboard
+
+Using the USB-C EarPods remote, you can dictate a phrase into a text field, delete a stray character and press Enter. This workflow was verified on two physical Macs. On the second Mac, the owner also confirmed it worked after reconnecting the earphones and after rebooting. [Read the device verification record](docs/verification.md#second-mac-native-app-launch-and-standard-input--physical-report-2026-10-16)
+
+macOS handles dictation. The button controls require no ChatGPT account or API key. Enter performs the focused app’s usual action, which may insert a newline, send a message or run a terminal command.
 
 ![Three configurable EarPods buttons](docs/media/button-settings.png)
 
