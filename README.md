@@ -1,6 +1,6 @@
 # EarPods AI Keys
 
-**Your EarPods music remote, repurposed for dictation and everyday input on a Mac.**
+**Use the buttons on wired USB-C EarPods to start dictation, delete a character and press Enter on a Mac.**
 
 [Русский](README.ru.md) · [Download for Apple silicon](https://github.com/metalebedenko/earpods-ai-keys/releases/tag/v0.1.0-preview.3) · [MIT](LICENSE)
 
@@ -12,7 +12,7 @@
 
 ## Dictation without the keyboard
 
-Using the USB-C EarPods remote, you can dictate a phrase into a text field, delete a stray character and press Enter. This workflow was verified on two physical Macs. On the second Mac, the owner also confirmed it worked after reconnecting the earphones and after rebooting. [Read the device verification record](docs/verification.md#second-mac-native-app-launch-and-standard-input--physical-report-2026-10-16)
+The same sequence was verified on two Macs. Using the earphone remote, the tester dictated a phrase into a text field, deleted a stray character and pressed Enter. On the second Mac, all three actions also worked after reconnecting the EarPods and after restarting the computer. [Read the device verification record](docs/verification.md#second-mac-native-app-launch-and-standard-input--physical-report-2026-10-16)
 
 macOS handles dictation. The button controls require no ChatGPT account or API key. Enter performs the focused app’s usual action, which may insert a newline, send a message or run a terminal command.
 
